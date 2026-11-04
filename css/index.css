@@ -880,5 +880,4 @@
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-	transform: translateX(100px);   /* 처음엔 화면 밖에 숨김 */
 }

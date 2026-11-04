@@ -152,7 +152,7 @@ window.addEventListener('scroll', _.throttle(function () {
     }
 }, 300));
 
-// 클릭하면 맨 위로 부드럽게 이동
+// 클릭하면 맨 위로 이동
 toTopEl.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
